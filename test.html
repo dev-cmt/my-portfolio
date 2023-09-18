@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root {
+            --mr-primary: #004ff8;
+            --mr-secondary: #6c757d;
+            --mr-defult: #6c757d;
+        }
+
+        .button {
+            background-color: var(--mr-primary);
+            color: var(--mr-light);
+        }
+        .section{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+        }
+        .section1{
+            background-color: var(--mr-primary);
+        }
+        .section2{
+            background-color: var(--mr-primary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section1 section">
+
+    </div>
+    <div class="section2 section">
+
+    </div>
+    <div class="section3 section">
+
+    </div>
+    <div class="section4 section">
+
+    </div>
+
+    <button data-color="#ff5733" class="change-color button">Change Color</button>
+    <button data-color="#3254" class="change-color button">Change Color</button>
+    <button data-color="#004ff8" class="change-color button">Change defult</button>
+
+    <script>
+        const changeColorButtons = document.querySelectorAll('.change-color');
+
+        changeColorButtons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                const newColor = this.getAttribute('data-color');
+                document.documentElement.style.setProperty('--mr-primary', newColor);
+            });
+        });
+    </script>
+    
+</body>
+</html>
