@@ -16,10 +16,6 @@
     background-size: cover;
     background-position: 50% 50%;
 }
-.owl-theme .owl-controls .owl-page span {
-    border-radius: 0 !important;
-    background: var(--mr-default2) !important;
-}
 
 #owl-team-member .member{
     margin: 5px;
@@ -64,3 +60,4 @@
     left: 75%;
     transition-delay: 0.45s;
 } */
+

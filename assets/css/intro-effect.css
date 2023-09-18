@@ -45,7 +45,7 @@
     top: 10px;
     width: 50%;
     height: calc(100% - 20px);
-    background: var(--mr-default);
+    background: var(--default);
 }
 
 .intro-wrapper .intro-cover::before {
@@ -65,7 +65,7 @@
     top: 10px;
     width: 50%;
     height: calc(100% - 20px);
-    background: var(--mr-default);
+    background: var(--default);
     animation: bannerAnimation 4s forwards;
 }
 
@@ -85,12 +85,12 @@
 @keyframes bannerAnimation {
     0% {
         width: 50%;
-        background-color: var(--mr-default);
+        background-color: var(--default);
     }
 
     100% {
         width: 0;
-        background-color: var(--mr-default);
+        background-color: var(--default);
     }
 }
 
@@ -120,8 +120,8 @@
 .intro-wrapper .intro-title.active::after {
     content: '';
     position: absolute;
-    border-top: 5px solid var(--mr-default);
-    border-bottom: 5px solid var(--mr-default);
+    border-top: 5px solid var(--default);
+    border-bottom: 5px solid var(--default);
     top: 0;
     width: 0;
     height: 100%;
@@ -181,8 +181,8 @@
     display: block;
     position: absolute;
     width: 999px;
-    border-bottom: 1px solid var(--mr-default);
-    border-top: 1px solid var(--mr-default);
+    border-bottom: 1px solid var(--default);
+    border-top: 1px solid var(--default);
     height: 3px;
     top: 50%;
     animation: botTitleAnimations 3s forwards;
@@ -262,7 +262,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--mr-default);
+    background: var(--default);
     transform-origin: right;
     transition: 2s;
     transition-delay: 0s;
@@ -279,7 +279,7 @@
 }
 
 .section-title .reveal:nth-child(2)::before {
-    background: var(--mr-default);
+    background: var(--default);
 }
 
 .section-title .reveal.active::before {
@@ -298,7 +298,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: block;
 	/* margin: 30px auto 0; */
 	padding: 5px 15px;
-	color: var(--mr-default);
+	color: var(--default);
 	font-size:14px;
 	font-weight: bold;
 	text-align: center;
@@ -337,30 +337,30 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 /* Victoria Buttons */
 
 a.animated-button.victoria-one {
-	border: 2px solid var(--mr-default);
+	border: 2px solid var(--default);
 }
 a.animated-button.victoria-one:after {
-	background: var(--mr-default);
+	background: var(--default);
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
 a.animated-button.victoria-two {
-	border: 2px solid var(--mr-default);
+	border: 2px solid var(--default);
 }
 a.animated-button.victoria-two:after {
-	background: var(--mr-default);
+	background: var(--default);
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
 a.animated-button.victoria-three {
-	border: 2px solid var(--mr-default);
+	border: 2px solid var(--default);
 }
 a.animated-button.victoria-three:after {
-	background: var(--mr-default);
+	background: var(--default);
 	opacity: .5;
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -372,10 +372,10 @@ a.animated-button.victoria-three:hover:after {
 	opacity: 1;
 }
 a.animated-button.victoria-four {
-	border: 2px solid var(--mr-default);
+	border: 2px solid var(--default);
 }
 a.animated-button.victoria-four:after {
-	background: var(--mr-default);
+	background: var(--default);
 	opacity: .5;
 	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
 	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
@@ -538,11 +538,11 @@ a.animated-button.gibson-four:hover:after {
 /* Thar Buttons */
 
 a.animated-button.thar-one {
-	color: var(--mr-default2);
+	color: var(--default2);
 	cursor: pointer;
 	display: block;
 	position: relative;
-	border: 2px solid var(--mr-default2);
+	border: 2px solid var(--default2);
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-one:hover {
@@ -565,7 +565,7 @@ a.animated-button.thar-one:before {
 	z-index: -1;
 	content: '';
 	color: #000 !important;
-	background: var(--mr-default2);
+	background: var(--default2);
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-two {
@@ -600,11 +600,11 @@ a.animated-button.thar-two:before {
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-three {
-	color: var(--mr-default);
+	color: var(--default);
 	cursor: pointer;
 	display: block;
 	position: relative;
-	border: 2px solid var(--mr-default);
+	border: 2px solid var(--default);
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 a.animated-button.thar-three:hover {
@@ -627,7 +627,7 @@ a.animated-button.thar-three:before {
 	z-index: -1;
 	content: '';
 	color: #fff !important;
-	background: var(--mr-default);
+	background: var(--default);
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 a.animated-button.thar-four {
